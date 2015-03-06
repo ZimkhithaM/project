@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<div class="right">
+		   <a href = "C:\Users\CortexHub\Desktop\project\My web.html" style="background-color:#ffffff">Home|</a>
+			<a href = "C:\Users\CortexHub\Desktop\project\AboutUs.html" style= "background-color:#ffffff"> About Us</a>
+			<a href = "C:/Users/CortexHub/Desktop/project/bookings.html" style= "background-color:#ffffff">Bookings</a>
+			<a href = "C:\Users\CortexHub\Desktop\project\Survey.html" style="background-color:#ffffff">Quiz</a>
+			<a href = "C:/Users/CortexHub/Desktop/project/Contact%20us.html"style="background-color:#ffffff" >Contact Us|</a
+<body>
+
+<p>A script on this page starts this clock:</p>
+
+<p id="demo"></p>
+
+<button onclick="clearInterval(myVar)">Stop time</button>
+
+<script>
+var myVar = setInterval(function(){myTimer()},1000);
+function myTimer() {
+    var d = new Date();
+    document.getElementById("demo").innerHTML = d.toLocaleTimeString();
+}
+</script>
+
+</body>
+</html>

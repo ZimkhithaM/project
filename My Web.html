@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	 <div class="right">
+		   <a href = "C:/Users/CortexHub/Desktop/project/My%20web.html" style="background-color:#ffffff">Home|</a>
+			<a href = "C:\Users\CortexHub\Desktop\project\AboutUs.html" style= "background-color:#ffffff"> About Us</a>
+			<a href = "C:/Users/CortexHub/Desktop/project/bookings.html" style= "background-color:#ffffff">Bookings</a>
+			<a href = "C:\Users\CortexHub\Desktop\project\Survey.html" style="background-color:#ffffff">Quiz</a>
+			<a href = "C:/Users/CortexHub/Desktop/project/Contact%20us.html"style="background-color:#ffffff" >Contact Us|</a>
+                	
+                    
+                     </div>
+        <title>Hippo Airways</title>
+		
+		 
+		<h1 style="font-size: 60px;color:blue;font-family:Broadway;text-align:center;background-color:white"><strong>Hippo Airways</strong>
+</h1>
+<h2 style="font-size: 30px;color:white;font-family:Arial;text-align:center"><strong>Travel the world with our luxurious air planes!!!</strong>
+</h2>
+
+
+        
+        
+    </head>
+	<body background="http://fc01.deviantart.net/fs71/i/2013/128/5/7/sky_moon_by_fenchity-d64j3kw.jpg"> 
+	
+	<img src="hippo-planes-plane_140814.jpg" align = center alt="plane" height="500" width="1500"rotate="90" />
+ <br>
+ <br>
+   <iframe src="http://free.timeanddate.com/clock/i4kk5q93/n1484/szw110/szh110/hoc009/hbw0/hfc9ff/cf100/hnc0f9/hwc000/fan2/fas16/fac555/fdi60/mqcf0f/mqs4/mql2/mqw4/mqd78/mhcf90/mhs4/mhl3/mhw4/mhd78/hhc990/hhs2/hmc990/hms2/hscf09" frameborder="0" width="200"height=150/iframe>
+    <span id="countdown" class="timer"></span>
+<script>
+var seconds = 60;
+function secondPassed() {
+    var minutes = Math.round((seconds - 30)/60);
+    var remainingSeconds = seconds % 60;
+    if (remainingSeconds < 10) {
+        remainingSeconds = "0" + remainingSeconds;  
+    }
+    document.getElementById('countdown').innerHTML = minutes + ":" + remainingSeconds;
+    if (seconds == 0) {
+        clearInterval(countdownTimer);
+        document.getElementById('countdown').innerHTML = "Buzz Buzz";
+    } else {
+        seconds--;
+    }
+}
+ 
+var countdownTimer = setInterval('secondPassed()', 1000);
+</script>
+    </body>
+</html>
